@@ -1,6 +1,5 @@
 const products = [
   {
-    id: 1,
     titel: "playstation",
     image: "playstatio image",
     description: "description for playStation",
@@ -12,7 +11,6 @@ const products = [
     newReviews: 4,
   },
   {
-    id: 2,
     titel: "sumsung",
     image: "phone image",
     description: "description for sumsung product",
@@ -24,7 +22,6 @@ const products = [
     newReviews: 6,
   },
   {
-    id: 3,
     titel: "pc gaming",
     image: "hp image",
     description: "description gaming product custumer",
@@ -36,7 +33,6 @@ const products = [
     newReviews: 4,
   },
   {
-    id: 4,
     titel: "casque",
     image: "casque image",
     description: "description gaming product custumer",
@@ -48,7 +44,6 @@ const products = [
     newReviews: 4,
   },
   {
-    id: 5,
     titel: "boxe",
     image: "boxe image",
     description: "description entertaiment product custumer",
@@ -61,4 +56,4 @@ const products = [
   },
 ];
 
-export default products;
+module.exports = products;
